@@ -3,6 +3,7 @@ package br.com.dgc.problem_26_remove_duplicates_from_sorted_array;
 public class Solution2 {
 
     // Solução complexidade O(n)
+    // Solução inválida porque não é "in-place"
 
     public int removeDuplicates(int[] nums) {
         if(nums.length == 0)
