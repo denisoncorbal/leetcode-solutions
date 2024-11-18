@@ -1,6 +1,7 @@
 package br.com.dgc.problem_26_remove_duplicates_from_sorted_array;
 
 public class Solution {
+    // Solução complexidade O(n^2)
     public int removeDuplicates(int[] nums) {
         int duplicatesCounter = 0;
         int lastAvaliable = nums.length - 1;
